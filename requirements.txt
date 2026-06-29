@@ -1,0 +1,10 @@
+flask>=3.0
+requests>=2.31
+cloudscraper>=1.2
+beautifulsoup4>=4.12
+openpyxl>=3.1
+pypdf>=4.0
+# lxml is optional — speeds up HTML parsing but the app will fall back to
+# the stdlib html.parser if it can't be installed (e.g., on Windows boxes
+# without a C compiler). Install separately if you want it:
+#   pip install lxml
